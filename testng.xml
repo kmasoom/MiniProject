@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.gcrit.listener.TestAllureListener" />
+
+	</listeners>
+	
+	<test name="TestCase01">
+		<classes>
+			<class name="com.gcrit.testcases.TestCase01_Regisration" />
+		</classes>
+	</test>
+	<test name="TestCase02">
+		<classes>
+			<class
+				name="com.gcrit.testcases.TestCase02_Registration_email_error_verification" />
+		</classes>
+	</test>
+	<test name="TestCase03">
+		<classes>
+			<class name="com.gcrit.testcases.TestCase03_Sign_In" />
+		</classes>
+	</test>
+
+	<test name="TestCase04">
+		<classes>
+			<class name="com.gcrit.testcases.TestCase04_Sign_In_Error" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.gcrit.listener.TestAllureListener"/>
+  </listeners>
+  <test name="TestCase01(failed)">
+    <classes>
+      <class name="com.gcrit.testcases.TestCase01_Regisration">
+        <methods>
+          <include name="Registraion_Gcrit"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gcrit.testcases.TestCase01_Regisration -->
+    </classes>
+  </test> <!-- TestCase01(failed) -->
+</suite> <!-- Failed suite [Suite] -->
